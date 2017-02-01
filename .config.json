@@ -619,6 +619,25 @@
      "file": "/home/ec2-user/.node-red/node_modules/node-red-dashboard/nodes/ui_group.js"
     }
    }
+  },
+  "node-red-node-mongodb": {
+   "name": "node-red-node-mongodb",
+   "version": "0.0.11",
+   "local": true,
+   "nodes": {
+    "mongo": {
+     "name": "mongo",
+     "types": [
+      "mongodb",
+      "mongodb out",
+      "mongodb in"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-mongodb",
+     "file": "/home/ec2-user/.node-red/node_modules/node-red-node-mongodb/66-mongodb.js"
+    }
+   }
   }
  },
  "_credentialSecret": "d9b0a1501ff25bf881f52c92d12f7fd344227a1385d2ded5487969bcfd1168c8"
